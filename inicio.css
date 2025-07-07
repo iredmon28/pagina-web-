@@ -7,7 +7,14 @@
       
 a{
     text-decoration:none;
+    font-family:'D3 Euronism';
+    color: black;
 }
+@font-face {
+font-family: 'D3 Euronism';
+src: url('./fonts/d3_euronism.ttf') format('truetype');
+}
+
 body {
 
     font-weight: 400;
