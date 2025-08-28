@@ -1,0 +1,51 @@
+
+
+#caja_fotos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+   
+    margin: 0 auto;
+    box-sizing:border-box;
+     gap:20px;
+    padding-bottom: 70px;
+}
+
+.caja_foto {
+    flex: 1 1 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    max-width: 33.33%;
+    
+}
+
+.servicios_fotos {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: block;
+}
+#texto_servicios {
+    font-family: 'Poppins', sans-serif;
+    margin: 40px auto 100px auto;
+    border-radius: 3px;
+    background-color: #ffffff;
+    max-width: 700px;
+    padding: 30px 40px;
+    text-align: center;
+    white-space: normal;
+}
+#texto_servicios strong{
+    font-family: 'd3 euronism';
+    color : orange;
+}
+#texto_servicios p {
+    margin-bottom: 1.5em;
+    text-align: justify;
+    
+
+}
